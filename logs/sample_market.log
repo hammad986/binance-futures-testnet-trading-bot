@@ -1,0 +1,4 @@
+2023-10-27 10:15:30,123 - trading_bot - INFO - Application start. CLI arguments: symbol=BTCUSDT, side=BUY, type=MARKET, quantity=0.01, price=None
+2023-10-27 10:15:30,124 - trading_bot - INFO - API Endpoint: https://testnet.binancefuture.com
+2023-10-27 10:15:30,125 - trading_bot - INFO - Preparing to send order request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2023-10-27 10:15:30,450 - trading_bot - INFO - Order successful. Response payload: {'orderId': 38294719, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'abc123def456', 'price': '0', 'avgPrice': '34500.50', 'origQty': '0.01', 'executedQty': '0.01', 'cumQty': '0.01', 'cumQuote': '345.005', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': 1698401730450}
