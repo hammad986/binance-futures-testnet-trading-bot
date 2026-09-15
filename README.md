@@ -103,3 +103,7 @@ When an order is successfully placed, you will see a colored output similar to t
 2. **USDT-M Futures**: The bot targets USDT-Margined futures (e.g., `BTCUSDT`).
 3. **No Local State**: Order history is not saved to a local database. The application is stateless and logs all activities to the `logs/` directory.
 4. **Time in Force**: LIMIT orders use `GTC` (Good Till Cancelled) by default.
+
+------------------------------------------------
+
+used api "https://vsllm.com"
